@@ -1,0 +1,32 @@
+/**app.wxss**/
+
+.clearfixed::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+.product-card{
+  width: 90%;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+}
+.product-card .location{
+  float: right;
+}
+.product-card .distance{
+  float: right;
+  padding-left: 10px;
+}
+.product-card image{
+  width: 30%;
+}
+.product-card .info{
+  box-sizing:border-box;
+  float: right;
+  padding: 10px;
+  width: 70%;
+}
+.product-card .number{
+  float: right;
+}

@@ -1,0 +1,37 @@
+<!--index.wxml-->
+<view>
+  <view class="top">
+    <text class="location" bindtap="location">{{location}}</text>
+    <input placeholder="" auto-focus class="search-input" />
+    <text class="search">搜索</text>
+  </view>
+  <view class="categories">
+    <button size="mini" id="daye" bindtap="goto">打野</button>
+    <button size="mini" id="ganhai" bindtap="goto">赶海</button>
+    <button size="mini" id="yeshi" bindtap="goto">野食</button>
+    <button size="mini" id="yeju" bindtap="goto">野居</button>
+    <button size="mini" id="buzhuo" bindtap="goto">捕捉</button>
+    <button size="mini" id="caizhai" bindtap="goto">采摘</button>
+    <button size="mini" id="minsu" bindtap="goto">民俗</button>
+    <button size="mini" id="tanmi" bindtap="goto">探秘</button>
+  </view>
+  <view class="product-card clearfixed">
+    <view class="">
+      <text class="name">小六打野</text>
+      <text class="distance">100km</text>
+      <text class="location">户县</text>
+    </view>
+    <image mode="widthFix" src="https://developers.weixin.qq.com/miniprogram/dev/image/cat/0.jpg?t=19032513"></image>
+    <view class="info">
+      <text class="name">干塘体验一日游</text>
+      <view>
+        <text class="label">打野、民俗</text>
+      </view>
+      <view>
+        <text class="date">3月2日-4月5日</text>
+        <text class="number">10人预约</text>
+      </view>
+      <text class="price">100$</text>
+    </view>
+  </view>
+</view>

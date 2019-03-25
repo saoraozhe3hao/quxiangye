@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view>
+  <text>定位/最近访问</text>
+  <view class="recent">
+    <text id="{{item}}" wx:for="{{recents}}" bindtap="back">{{item}}</text>
+  </view>
+  <text>选择</text>
+  <view>
+    <picker value="{{province}}" range="{{provinces}}" bindchange="provinceChange">
+      <view class="picker">
+        省：{{provinces[province]}}
+      </view>
+    </picker>
+  </view>
+  <view>
+    <button size="mini" id="{{item}}" wx:for="{{cities}}" bindtap="back">{{item}}</button>
+  </view>
+</view>

@@ -1,0 +1,18 @@
+/**index.wxss**/
+.top{
+  width: 80%;
+  margin: 0 auto 10px;
+}
+.top .location{
+  margin-right: 10px;
+}
+.top .search{
+  float: right;
+}
+.search-input{
+  display:inline-block;
+  vertical-align:middle;
+}
+.categories button{
+  margin: 0 0.5em;
+}
