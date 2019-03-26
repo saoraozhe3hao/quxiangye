@@ -2,7 +2,7 @@
 <view>
   <view class="top">
     <text class="location" bindtap="location">{{location}}</text>
-    <input placeholder="" auto-focus class="search-input" />
+    <input placeholder="" class="search-input" />
     <text class="search">搜索</text>
   </view>
   <view class="categories">
@@ -15,7 +15,7 @@
     <button size="mini" id="minsu" bindtap="goto">民俗</button>
     <button size="mini" id="tanmi" bindtap="goto">探秘</button>
   </view>
-  <view class="product-card clearfixed">
+  <view class="product-card clearfixed" id="0" bindtap="product">
     <view class="">
       <text class="name">小六打野</text>
       <text class="distance">100km</text>

@@ -1,0 +1,45 @@
+<view>
+  <view class="product-card clearfixed">
+    <image mode="widthFix" src="https://developers.weixin.qq.com/miniprogram/dev/image/cat/0.jpg?t=19032513"></image>
+    <view class="info">
+      <text class="name">干塘体验一日游</text>
+      <view>
+        <text class="label">打野、民俗</text>
+      </view>
+      <view>
+        <text class="date">3月2日-4月5日</text>
+      </view>
+    </view>
+  </view>
+  <view>
+    <view>
+      <picker mode="date" value="{{date}}" start="2015-09-01" end="2020-09-01" bindchange="dateChange">
+        <view class="picker">
+          预约日期: {{date}}
+        </view>
+      </picker>
+      <text>还可预约30人</text>
+    </view>
+    <view>
+      <text>人数：</text>
+      <input placeholder="" type="number" />
+      <text>50元每人</text>
+    </view>
+    <view>
+      <text>房间数：</text>
+      <input placeholder="" type="number" />
+      <text>100元每间</text>
+      <text>，还剩1间</text>
+    </view>
+    <view>
+      <text>床位数：</text>
+      <input placeholder="" type="number" />
+      <text>40元每个</text>
+      <text>，还剩5个</text>
+    </view>
+  </view>
+  <view>
+    <text>合计：1000元</text>
+  </view>
+  <button bindtap="submit">提交订单</button>
+</view>

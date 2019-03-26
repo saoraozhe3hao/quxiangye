@@ -1,8 +1,7 @@
 {
   "pages": [
     "pages/index/index/index",
-    "pages/index/category/category",
-    "pages/order/order",
+    "pages/order/myOrder/myOrder",
     "pages/publish/publish",
     "pages/mine/mine"
   ],
@@ -23,7 +22,7 @@
         "text": "发布"
       },
       {
-        "pagePath": "pages/order/order",
+        "pagePath": "pages/order/myOrder/myOrder",
         "text": "订单"
       },
       {

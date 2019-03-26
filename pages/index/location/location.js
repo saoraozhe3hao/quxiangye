@@ -10,7 +10,10 @@ Page({
     cities: ['宁夏', '银川', '石嘴山', '吴忠', '固原', '中卫']
   },
   onLoad: function() {
-
+    wx.showShareMenu();
+    wx.setNavigationBarTitle({
+      title: '地址'
+    })
   },
   provinceChange: function(event){
     this.setData({

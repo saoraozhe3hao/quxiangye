@@ -6,9 +6,12 @@ Page({
   data: {
     location: '全国'
   },
+  onLoad: function () {
+    wx.showShareMenu();
+   },
   goto: function(event) {
     wx.navigateTo({
-      url: '../category/category' + '?category=' + event.target.id
+      url: '../category/category' + '?category=' + event.currentTarget.id
     })
   },
   location: function(){
@@ -16,5 +19,9 @@ Page({
       url: '../location/location'
     })
   },
-  onLoad: function() {}
+  product: function(event){
+    wx.navigateTo({
+      url: '../../product/product' + '?id=' + event.currentTarget.id
+    })
+  }
 })
