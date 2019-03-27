@@ -1,0 +1,34 @@
+<view>
+  <view class="clearfixed">
+    <view class="left">
+      <view>小六打野</view>
+      <view>福建省漳平市永福镇</view>
+      <view>距您100公里</view>
+      <view>抖音号：aaaa</view>
+      <view>快手号：aaaa</view>
+      <view>火山号：cccc</view>
+      <view>西瓜号：bbbbb</view>
+      <view>B站号：dddd</view>
+      <view>美拍号：dddd</view>
+      <view>秒拍号：dddd</view>
+      <view>好看号：dddd</view>
+      <view>微视号：dddd</view>
+      <view>微博号：dddd</view>
+      <view>公众号：dddd</view>
+    </view>
+    <view class="right">
+      <button size="mini" bindtap="tipOff">举报趣导</button>
+      <image mode="widthFix" src="https://developers.weixin.qq.com/miniprogram/dev/image/cat/0.jpg?t=19032513"></image>
+    </view>
+  </view>
+  <view>
+    <button size="mini" id="product" bindtap="switch">他的野趣</button>
+    <button size="mini" id="evaluate" bindtap="switch">趣友评价</button>
+  </view>
+  <view wx:if="{{current == 'product'}}">
+    <product-card></product-card>
+  </view>
+  <view wx:if="{{current == 'evaluate'}}">
+    <evaluate-card></evaluate-card>
+  </view>
+</view>

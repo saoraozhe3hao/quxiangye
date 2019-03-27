@@ -1,0 +1,21 @@
+/* 通用 */
+.clearfixed::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+/* 评价 */
+.evaluate-card{
+  width: 90%;
+  margin: 10px auto;
+}
+.evaluate-card image{
+  width: 30%;
+}
+.evaluate-card .info{
+  box-sizing:border-box;
+  float: right;
+  padding: 10px;
+  width: 70%;
+}

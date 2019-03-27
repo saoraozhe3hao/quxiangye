@@ -6,20 +6,20 @@ Page({
   data: {
     location: '全国'
   },
-  onLoad: function () {
+  onLoad: function() {
     wx.showShareMenu();
-   },
-  goto: function(event) {
+  },
+  category: function(event) {
     wx.navigateTo({
       url: '../category/category' + '?category=' + event.currentTarget.id
     })
   },
-  location: function(){
+  location: function() {
     wx.navigateTo({
       url: '../location/location'
     })
   },
-  product: function(event){
+  product: function(event) {
     wx.navigateTo({
       url: '../../product/product' + '?id=' + event.currentTarget.id
     })

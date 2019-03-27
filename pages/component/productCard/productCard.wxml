@@ -1,0 +1,19 @@
+<view class="product-card clearfixed" id="0" bindtap="product">
+  <view class="">
+    <text class="name">小六打野</text>
+    <text class="distance">100km</text>
+    <text class="location">户县</text>
+  </view>
+  <image mode="widthFix" src="https://developers.weixin.qq.com/miniprogram/dev/image/cat/0.jpg?t=19032513"></image>
+  <view class="info">
+    <text class="name">干塘体验一日游</text>
+    <view>
+      <text class="label">打野、民俗</text>
+    </view>
+    <view>
+      <text class="date">3月2日-4月5日</text>
+      <text class="number">10人预约</text>
+    </view>
+    <text class="price">100$</text>
+  </view>
+</view>

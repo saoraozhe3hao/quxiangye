@@ -1,17 +1,3 @@
-<view class="iconfont">
-  <view class="evaluate-card clearfixed">
-    <image mode="widthFix" src="https://developers.weixin.qq.com/miniprogram/dev/image/cat/0.jpg?t=19032513"></image>
-    <view class="info">
-      <text class="name">真真</text>
-      <text class="time">5天前</text>
-      <progress percent="80" color="#f8f806" />
-      <text class="comment">还行</text>
-      <view>
-        <text class="response-text">商家回应：谢谢</text>
-        <button size="mini" bindtap="response">回应</button>
-        <input placeholder="" auto-focus class="" />
-        <button size="mini" bindtap="submit">提交</button>
-      </view>
-    </view>
-  </view>
+<view>
+  <evaluate-card></evaluate-card>
 </view>

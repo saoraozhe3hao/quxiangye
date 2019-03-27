@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "evaluate-card": "../component/evaluateCard/evaluateCard"
+  },
   "navigationBarTitleText": "用户评价"
 }

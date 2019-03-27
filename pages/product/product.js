@@ -11,6 +11,11 @@ Page({
   collect: function(event){
     
   },
+  seller: function (event) {
+    wx.navigateTo({
+      url: '../seller/seller/seller' + '?sellerId=' + 0
+    })
+  },
   moreEvaluate: function(event){
     wx.navigateTo({
       url: '../evaluate/evaluate' + '?productId=' + this.options.id
