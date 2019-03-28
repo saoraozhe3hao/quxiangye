@@ -13,17 +13,17 @@ Page({
   },
   seller: function (event) {
     wx.navigateTo({
-      url: '../seller/seller/seller' + '?sellerId=' + 0
+      url: '../seller/sellerDetail/sellerDetail' + '?sellerId=' + 0
     })
   },
-  moreEvaluate: function(event){
+  valuation: function(event){
     wx.navigateTo({
-      url: '../evaluate/evaluate' + '?productId=' + this.options.id
+      url: '../valuation/valuation/valuation' + '?productId=' + this.options.id
     })
   },
   bespeak: function(event){
     wx.navigateTo({
-      url: '../order/bespeak/bespeak' + '?productId=' + this.options.id
+      url: '../../order/bespeak/bespeak' + '?productId=' + this.options.id
     })
   }
 })

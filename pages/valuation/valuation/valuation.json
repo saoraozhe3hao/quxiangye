@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "valuation-card": "../../component/valuationCard/valuationCard"
+  }
+}

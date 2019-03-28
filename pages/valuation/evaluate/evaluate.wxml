@@ -1,0 +1,11 @@
+<view>
+  <view>
+      <view>
+        <slider bindchange="sliderChange" min="0" max="10" value="10"/>{{score}}分
+      </view>
+    <view>
+      <textarea auto-height placeholder="详细描述" />
+    </view>
+  </view>
+  <button bindtap="submit">提交</button>
+</view>

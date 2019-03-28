@@ -15,9 +15,9 @@ Component({
     resize() { },
   },
   methods: {
-    product: function (event) {
+    productDetail: function (event) {
       wx.navigateTo({
-        url: '../../product/product' + '?id=' + event.currentTarget.id
+        url: '../../product/productDetail/productDetail' + '?id=' + event.currentTarget.id
       })
     }
   }

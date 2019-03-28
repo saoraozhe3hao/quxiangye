@@ -1,1 +1,13 @@
-/* pages/logs/logs.wxss */
+.order-card{
+  width: 90%;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+}
+.left{
+  float: left;
+  width: 65%;
+}
+.right{
+  float: right;
+  width: 35%;
+}

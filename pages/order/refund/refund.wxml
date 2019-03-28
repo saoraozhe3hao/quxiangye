@@ -1,0 +1,23 @@
+<view>
+  <view>
+      <view>
+      <text>订单ID：</text>
+      <text>{{orderId}}</text>
+    </view>
+    <view>
+      <text>服务名称：</text>
+      <text>小六打野</text>
+    </view>
+    <view>
+      <picker bindchange="typeChange" value="{{type}}" range="{{types}}">
+        <view class="picker">
+          退款类型：{{types[type]}}
+        </view>
+      </picker>
+    </view>
+    <view>
+      <textarea auto-height placeholder="详细描述" />
+    </view>
+  </view>
+  <button bindtap="submit">提交</button>
+</view>

@@ -14,10 +14,5 @@ Page({
     wx.navigateTo({
       url: '../location/location'
     })
-  },
-  product: function (event) {
-    wx.navigateTo({
-      url: '../../product/product' + '?id=' + event.currentTarget.id
-    })
   }
 })

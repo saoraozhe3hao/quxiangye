@@ -1,4 +1,4 @@
-<view class="iconfont">
+<view>
   <view>
     <text bindtap="seller">小六打野</text>
     <button size="mini" open-type="share">分享</button>
@@ -28,8 +28,8 @@
   <image mode="widthFix" src="https://developers.weixin.qq.com/miniprogram/dev/image/cat/0.jpg?t=19032513"></image>
   <image mode="widthFix" src="https://developers.weixin.qq.com/miniprogram/dev/image/cat/0.jpg?t=19032513"></image>
   <text>用户评价</text>
-  <evaluate-card></evaluate-card>
-  <text bindtap="moreEvaluate">更多评价</text>
+  <valuation-card></valuation-card>
+  <text bindtap="valuation">更多评价</text>
   <view>
     <text>100$</text>
     <button size="mini" bindtap="bespeak">立即预约</button>

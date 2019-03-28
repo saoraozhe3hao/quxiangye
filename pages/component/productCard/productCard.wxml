@@ -1,4 +1,4 @@
-<view class="product-card clearfixed" id="0" bindtap="product">
+<view class="product-card clearfixed" id="0" bindtap="productDetail">
   <view class="">
     <text class="name">小六打野</text>
     <text class="distance">100km</text>

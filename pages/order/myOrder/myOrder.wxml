@@ -1,2 +1,27 @@
-<!--pages/logs/logs.wxml-->
-<text>订单</text>
+<view>
+  <view class="tabs">
+    <button size="mini" id="all" bindtap="switch">全部</button>
+    <button size="mini" id="unused" bindtap="switch">待使用</button>
+    <button size="mini" id="used" bindtap="switch">待评价</button>
+    <button size="mini" id="refund" bindtap="switch">退款</button>
+  </view>
+  <view class="order-card clearfixed" bindtap="orderDetail">
+    <view class="left">
+      <view>干塘体验</view>
+      <view>预约时间：2009年33月33日</view>
+      <view>人数：5</view>
+      <view>房间数：3</view>
+      <view>床位数：3</view>
+      <view>总价: 4440元</view>
+    </view>
+    <view class="right">
+      <text>待使用</text>
+      <view>
+        <button size="mini" id="0" bindtap="refund">申请退款</button>
+      </view>
+      <view>
+        <button size="mini" id="0" bindtap="evaluate">评价</button>
+      </view>
+    </view>
+  </view>
+</view>
