@@ -1,0 +1,33 @@
+.clearfixed::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+.publish-card{
+  width: 90%;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+}
+.location{
+  float: right;
+}
+.distance{
+  float: right;
+  padding-left: 10px;
+}
+image{
+  width: 30%;
+}
+.info{
+  box-sizing:border-box;
+  float: right;
+  padding: 10px;
+  width: 70%;
+}
+.product-card .number{
+  float: right;
+}
+.status{
+  float: right;
+}

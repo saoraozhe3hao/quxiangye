@@ -1,0 +1,4 @@
+<view>
+  <button bindtap="publish">发布</button>
+  <publish-card></publish-card>
+</view>

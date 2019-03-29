@@ -26,6 +26,10 @@
       <text>50元每人</text>
     </view>
     <view>
+      <text>联系电话：</text>
+      <input placeholder="" type="number" />
+    </view>
+    <view>
       <text>房间数：</text>
       <input placeholder="" type="number" />
       <text>100元每间</text>

@@ -1,0 +1,35 @@
+<view>
+  <view>
+    <text>干塘体验一日游</text>
+    <button size="mini" bindtap="copy">复制</button>
+    <button size="mini" bindtap="down">下架</button>
+  </view>
+  <view>套餐详情</view>
+  <view>
+    <text>时间：{{date}}</text>
+    <picker mode="date" value="{{date}}" start="2015-09-01" end="2020-09-01" bindchange="dateChange">
+      <button size="mini" bindtap="delay">延长时间</button>
+    </picker>
+  </view>
+  <view>地点：****</view>
+  <view>标签：****</view>
+  <view>上午：****</view>
+  <view>午饭：****</view>
+  <view>下午：****</view>
+  <view>晚饭：****</view>
+  <view>住宿：****</view>
+  <view>接待上限：****</view>
+  <view>住宿上限：****</view>
+  <view>价格规则：****</view>
+  <view>1人预约：150元每人</view>
+  <view>2人预约：130元每人</view>
+  <view>3~5人预约：120元每人</view>
+  <view>6~9人预约：110元每人</view>
+  <view>10人及以上预约：100元每人</view>
+  <view>房间：100元每间</view>
+  <view>床位：40元每个</view>
+  <text>用户评价</text>
+  <valuation-card></valuation-card>
+  <text bindtap="valuation">更多评价</text>
+  <button bindtap="appointment">预约情况</button>
+</view>

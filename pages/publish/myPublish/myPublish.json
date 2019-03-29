@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+        "publish-card": "../../component/publishCard/publishCard"
+  }
+}

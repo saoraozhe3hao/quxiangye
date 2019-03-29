@@ -1,0 +1,22 @@
+<view>
+    <view>
+      <picker mode="date" value="{{date}}" start="2015-09-01" end="2020-09-01" bindchange="dateChange">
+        <view class="picker">
+          日期: {{date}}
+        </view>
+      </picker>
+    </view>
+  <text>总览</text>
+  <view>预约人数：3人</view>
+  <view>预定房间数：3间</view>
+  <view>预定床位数：3个</view>
+  <text>详情</text>
+  <view class="order-item">
+    <view>用户名：顶顶顶顶</view>
+    <view>联系电话：15202926290</view>
+    <view>人数：6</view>
+    <view>房间数：3</view>
+    <view>床位数：4</view>
+    <view>状态：已使用</view>
+  </view>
+</view>

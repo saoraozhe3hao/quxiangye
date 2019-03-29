@@ -1,6 +1,5 @@
 {
   "usingComponents": {
-    "product-card": "../../component/productCard/productCard",
     "valuation-card": "../../component/valuationCard/valuationCard"
   }
 }

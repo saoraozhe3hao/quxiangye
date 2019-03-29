@@ -23,12 +23,12 @@
   </view>
   <view>
     <button size="mini" id="product" bindtap="switch">他的野趣</button>
-    <button size="mini" id="evaluate" bindtap="switch">趣友评价</button>
+    <button size="mini" id="valuation" bindtap="switch">趣友评价</button>
   </view>
   <view wx:if="{{current == 'product'}}">
     <product-card></product-card>
   </view>
-  <view wx:if="{{current == 'evaluate'}}">
-    <evaluate-card></evaluate-card>
+  <view wx:if="{{current == 'valuation'}}">
+    <valuation-card></valuation-card>
   </view>
 </view>

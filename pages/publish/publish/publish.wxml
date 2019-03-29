@@ -1,0 +1,138 @@
+<view>
+  <view>
+    <text>标题：</text>
+    <input placeholder="" />
+  </view>
+  <view>
+    <picker mode="date" value="{{startDate}}" start="2015-09-01" end="2020-09-01" bindchange="startChange">
+      <view class="picker">
+        开始日期: {{startDate}}
+      </view>
+    </picker>
+    <picker mode="date" value="{{endDate}}" start="2015-09-01" end="2020-09-01" bindchange="endChange">
+      <view class="picker">
+        结束日期: {{endDate}}
+      </view>
+    </picker>
+  </view>
+  <view>
+    <text>地点：</text>
+    <input placeholder="" />
+  </view>
+  <view>
+    <text>上午活动：</text>
+    <input placeholder="" />
+  </view>
+  <view>
+    <text>午饭：</text>
+    <input placeholder="" />
+  </view>
+  <view>
+    <text>下午活动：</text>
+    <input placeholder="" />
+  </view>
+  <view>
+    <text>晚饭：</text>
+    <input placeholder="" />
+  </view>
+  <view>
+    <text>晚上活动：</text>
+    <input placeholder="" />
+  </view>
+  <view>
+    <text>接待上限：</text>
+    <input placeholder="" type="number" />
+  </view>
+  <text>价格规则</text>
+  <view>
+    <text>1人：</text>
+    <input placeholder="" />
+    <text>元</text>
+  </view>
+  <view>
+    <text>2人：</text>
+    <input placeholder="" />
+    <text>元/人</text>
+  </view>
+  <view>
+    <text>3~5人：</text>
+    <input placeholder="" />
+    <text>元/人</text>
+  </view>
+  <view>
+    <text>6~9人：</text>
+    <input placeholder="" />
+    <text>元/人</text>
+  </view>
+  <view>
+    <text>10人以上：</text>
+    <input placeholder="" />
+    <text>元/人</text>
+  </view>
+  <view>
+    <text>住宿安排：</text>
+    <radio-group bindchange="stayOverChange">
+      <label>
+        <radio value="1" checked="{{stayOver == 1}}" />
+        <text>可以住宿</text>
+      </label>
+      <label>
+        <radio value="2" checked="{{stayOver == 2}}" />
+        <text>无法住宿</text>
+      </label>
+    </radio-group>
+  </view>
+  <view wx:if="{{stayOver == 1}}">
+    <checkbox-group bindchange="checkboxChange">
+      <label>
+        <checkbox value="1" checked="{{hotel}}"></checkbox>
+        <text>附近酒店住宿</text>
+      </label>
+      <label>
+        <checkbox value="2" checked="{{provide}}"></checkbox>
+        <text>提供住宿</text>
+      </label>
+    </checkbox-group>
+  </view>
+  <view wx:if="{{provide}}">
+    <text>房间数：</text>
+    <input placeholder="" type="number" />
+  </view>
+  <view wx:if="{{provide}}">
+    <text>房间价：</text>
+    <input placeholder="" type="number" />
+  </view>
+  <view wx:if="{{provide}}">
+    <text>床位数：</text>
+    <input placeholder="" type="number" />
+  </view>
+  <view wx:if="{{provide}}">
+    <text>床位价：</text>
+    <input placeholder="" type="number" />
+  </view>
+  <view>
+    <text>活动图片：</text>
+    <button size="mini" data-type="activityImg" bindtap="chooseImg">选择</button>
+    <view wx:for="{{activityImg}}" wx:key="{{index}}">
+      <image mode="widthFix" data-type="activityImg" bindtap="preview" data-src="{{item}}" src="{{item}}"></image>
+      <text data-type="activityImg" data-index="{{index}}" bindtap="remove">删除</text>
+    </view>
+  </view>
+  <view>
+    <text>餐饮图片：</text>
+    <button size="mini" data-type="foodImg" bindtap="chooseImg">选择</button>
+    <view wx:for="{{foodImg}}" wx:key="{{index}}">
+      <image mode="widthFix" data-type="foodImg" bindtap="preview" data-src="{{item}}" src="{{item}}"></image>
+      <text data-type="foodImg" data-index="{{index}}" bindtap="remove">删除</text>
+    </view>
+  </view>
+  <view>
+    <text>住宿图片：</text>
+    <button size="mini" data-type="stayOverImg" bindtap="chooseImg">选择</button>
+    <view wx:for="{{stayOverImg}}" wx:key="{{index}}">
+      <image mode="widthFix" data-type="stayOverImg" bindtap="preview" data-src="{{item}}" src="{{item}}"></image>
+      <text data-type="stayOverImg" data-index="{{index}}" bindtap="remove">删除</text>
+    </view>
+  </view>
+  <button bindtap="publish">发布</button>
+</view>

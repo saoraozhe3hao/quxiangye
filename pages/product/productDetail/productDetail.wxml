@@ -8,6 +8,7 @@
   <progress percent="20" color="#f8f806" />
   <view>时间：2019年5月1日-2019年8月12日</view>
   <view>地点：福建省龙岩市漳平市永福镇箭竹村</view>
+  <view>标签：****</view>
   <text>套餐详情</text>
   <view>上午：爬山</view>
   <view>午饭：烧烤</view>
@@ -25,8 +26,8 @@
   <view>10人及以上预约：100元每人</view>
   <view>房间：100元每间</view>
   <view>床位：40元每个</view>
-  <image mode="widthFix" src="https://developers.weixin.qq.com/miniprogram/dev/image/cat/0.jpg?t=19032513"></image>
-  <image mode="widthFix" src="https://developers.weixin.qq.com/miniprogram/dev/image/cat/0.jpg?t=19032513"></image>
+  <image mode="widthFix" data-src="https://developers.weixin.qq.com/miniprogram/dev/image/cat/0.jpg?t=19032511"  src="https://developers.weixin.qq.com/miniprogram/dev/image/cat/0.jpg?t=19032511" bindtap="preview"></image>
+  <image mode="widthFix" data-src="https://developers.weixin.qq.com/miniprogram/dev/image/cat/0.jpg?t=19032512"  src="https://developers.weixin.qq.com/miniprogram/dev/image/cat/0.jpg?t=19032512" bindtap="preview"></image>
   <text>用户评价</text>
   <valuation-card></valuation-card>
   <text bindtap="valuation">更多评价</text>

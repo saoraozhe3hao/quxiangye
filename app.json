@@ -2,7 +2,7 @@
   "pages": [
     "pages/index/index/index",
     "pages/order/myOrder/myOrder",
-    "pages/publish/publish",
+    "pages/publish/myPublish/myPublish",
     "pages/mine/mine"
   ],
   "window": {
@@ -18,7 +18,7 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/publish/publish",
+        "pagePath": "pages/publish/myPublish/myPublish",
         "text": "发布"
       },
       {
