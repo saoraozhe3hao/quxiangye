@@ -1,0 +1,8 @@
+<view>
+  <view>已提现金额：**</view>
+  <view>提现中金额：**</view>
+  <view>
+    <text>可提现金额：**</text>
+    <button size="mini" bindtap="withdraw">申请提现</button>
+  </view>
+</view>

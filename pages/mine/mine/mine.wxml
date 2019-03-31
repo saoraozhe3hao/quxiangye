@@ -1,0 +1,9 @@
+<view>
+  <view>
+    <button size="mini" bindtap="verify">验证订单</button>
+    <button size="mini" bindtap="message">信息</button>
+    <button size="mini" bindtap="profit">收益</button>
+  </view>
+  <button bindtap="personalInfo">个人信息</button>
+  <button bindtap="collection">收藏</button>
+</view>

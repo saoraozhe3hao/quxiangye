@@ -1,0 +1,11 @@
+<view>
+  <view>
+    <text>昵称：</text>
+    <input placeholder="" />
+  </view>
+  <view>
+    <text>地址：</text>
+    <input placeholder="" />
+  </view>
+  <button bindtap="save">保存</button>
+</view>

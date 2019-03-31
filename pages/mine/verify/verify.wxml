@@ -1,0 +1,7 @@
+<view>
+  <view>
+    <input placeholder="券码" />
+    <button size="mini" bindtap="verify">验证</button>
+  </view>
+  <button size="mini" bindtap="scan">扫描</button>
+</view>

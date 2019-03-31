@@ -1,0 +1,12 @@
+.receive-message{
+  border: 1px solid #ccc;
+  margin: 0 50px 20px 20px;
+}
+.send-message{
+  border: 1px solid #ccc;
+  margin: 0 20px 20px 50px;
+}
+.leave-word{
+  position: absolute;
+  bottom: 0;
+}

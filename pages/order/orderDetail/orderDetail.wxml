@@ -1,6 +1,7 @@
 <view>
   <product-card></product-card>
   <view>券码：</view>
+  <image mode="widthFix" src="https://developers.weixin.qq.com/miniprogram/dev/image/cat/0.jpg?t=19032512"></image>
   <view>订单信息</view>
   <view>订单号：</view>
   <view>付款时间：</view>

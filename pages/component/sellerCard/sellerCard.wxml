@@ -1,0 +1,21 @@
+<view class="seller-card clearfixed" data-id="0" bindtap="sellerDetail">
+  <view class="">
+    <text class="name">小六打野</text>
+    <text class="distance">100km</text>
+  </view>
+  <image mode="widthFix" src="https://developers.weixin.qq.com/miniprogram/dev/image/cat/0.jpg?t=19032513"></image>
+  <view class="info">
+    <view>地址：福建省漳平市永福镇</view>
+    <view>抖音号：aaaa</view>
+    <view>快手号：aaaa</view>
+    <view>火山号：cccc</view>
+    <view>西瓜号：bbbbb</view>
+    <view>B站号：dddd</view>
+    <view>美拍号：dddd</view>
+    <view>秒拍号：dddd</view>
+    <view>好看号：dddd</view>
+    <view>微视号：dddd</view>
+    <view>微博号：dddd</view>
+    <view>公众号：dddd</view>
+  </view>
+</view>

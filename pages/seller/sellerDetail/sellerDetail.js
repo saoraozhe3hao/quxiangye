@@ -8,6 +8,9 @@ Page({
       title: '趣导'
     });
   },
+  collect: function(event){
+
+  },
   tipOff: function(event){
     wx.navigateTo({
       url: '../../seller/tipOff/tipOff' + '?sellerId=' + 0

@@ -1,0 +1,8 @@
+<view>
+  <view bindtap="basic">昵称：*** ></view>
+  <view bindtap="basic">地址：*** ></view>
+  <view bindtap="phone">手机号：*** ></view>
+  <view bindtap="selfMedia">自媒体号/短视频号：3个 ></view>
+  <view bindtap="bankCard">姓名：*** ></view>
+  <view bindtap="bankCard">银行卡：未设置></view>
+</view>

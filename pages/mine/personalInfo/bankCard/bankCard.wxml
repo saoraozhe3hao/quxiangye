@@ -1,0 +1,15 @@
+<view>
+  <view>
+    <text>姓名：</text>
+    <input placeholder="" />
+  </view>
+  <view>
+    <text>银行卡号：</text>
+    <input placeholder="" type="number"/>
+  </view>
+  <view>
+    <text>开户行：</text>
+    <input placeholder="" />
+  </view>
+  <button bindtap="save">保存</button>
+</view>
